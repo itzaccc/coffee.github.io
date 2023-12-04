@@ -1,0 +1,176 @@
+/* NAVBAR */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: peachpuff, beige;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 180px;
+  padding-right: 160px;
+  margin: 0%;
+  font-family: "Arial";
+}
+
+.bi-brightness {
+  font-size: 20px;
+  height: 5px;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.discord {
+  width: 100%;
+  max-width: 75px;
+  padding-left: auto;
+  padding-right: auto;
+  height: 65px;
+}
+
+.facebook {
+  width: 100%;
+  max-width: 75px;
+  padding-left: auto;
+  padding-right: auto;
+  height: 65px;
+}
+
+.instagram {
+  width: 100%;
+  max-width: 75px;
+  padding-left: auto;
+  padding-right: auto;
+  height: 65px;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+/*HOME*/
+.text-and-image-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 1330px;
+}
+
+.text-container {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 35px;
+}
+.title-text {
+  margin-top: 15px;
+}
+
+p {
+  font-size: large;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* HOMEBUTTONS */
+.titlebuttons {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+}
+
+.coffeeandtext {
+  margin-top: 65px;
+}
+
+.coffee {
+  margin-top: 35px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  background-color: beige peachpuff;
+}
+
+.Drink-me-here {
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 18px;
+  background-color: beige ivory;
+  margin-right: 20px;
+}
+.Sendmetoyou {
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 25px;
+  font-size: 18px;
+  background-color: beige ivory;
+}
+
+.coffeecontainers {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 55px;
+  margin-left: 155px;
+}
+.hotcoff {
+  width: 220px;
+  margin: 10px 0;
+}
+.cappuccino {
+  width: 220px;
+  margin: 10px 0;
+}
+
+.frappuccino {
+  width: 210px;
+  margin: 10px 0;
+}
+
+.greentea {
+  width: 210px;
+  margin: 10px 0;
+}
+
+.cocktail {
+  width: 200px;
+  margin: 10px 0;
+}
+.juice {
+  width: 200px;
+  margin: 10px o;
+}
